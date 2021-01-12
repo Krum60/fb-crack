@@ -1,4 +1,10 @@
 # fb-crack
 
 
-git clone 
+git clone https://github.com/RJ97600/fb-crack.git
+
+
+cd fb-crack
+
+
+python2 main.py
