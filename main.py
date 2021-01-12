@@ -170,7 +170,7 @@ def bot():
         except IOError:
             print '[!] Failed load access token'
             print "[!] type 'token' to generate access token"
-                    bot()
+            bot()
 
         WT = raw_input(W + '[?] [' + R + 'W' + W + ']allpost or [' + R + 'T' + W + ']arget (' + R + 'W' + W + '/' + R + 'T' + W + ') : ')
         if WT.lower() == "w" or WT.lower() == '':
