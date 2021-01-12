@@ -79,9 +79,6 @@ def get():
 def unfollow(posts):
     global token , WT
 
-    print '\r[*] all id successfully retrieved    '
-    print '[*] start'
-
     try:
         counter = 0
         for post in posts['data']:
@@ -98,7 +95,6 @@ def unfollow(posts):
                 print W + '[' + R + post['name'] + W + '] failed'
             except TypeError:
                 print W + '[' + G + post['name'] + W + '] unfollow'
-        print '[*] done'
         bot()
     except KeyboardInterrupt:
         print '\r[!] Stopped'
@@ -170,9 +166,9 @@ def bot():
         print '[*] load access token'
         try:
             token = open('cookie/token.log','r').read()
-                print '[*] Success load access token'
+            print '[*] Success load access token'
         except IOError:
-                    print '[!] Failed load access token'
+            print '[!] Failed load access token'
             print "[!] type 'token' to generate access token"
                     bot()
 
