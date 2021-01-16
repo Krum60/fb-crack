@@ -44,6 +44,10 @@ apt install python2
 
 apt install pip2
 
+pip2 install mechanize
+
+pip2 install requests
+
 git clone https://github.com/Krum60/fb-crack.git
 
 cd fb-crack
