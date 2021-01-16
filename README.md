@@ -34,15 +34,15 @@ Dump About	✅	retrieve all your friend's about data
 
 ##### Install & Guide
 
-apt update
+pkg update
 
-apt upgrade
+pkg upgrade
 
-apt install git
+pkg install git
 
-apt install python2
+pkg install python2
 
-apt install pip2
+pkg install pip2
 
 pip2 install mechanize
 
@@ -52,7 +52,12 @@ git clone https://github.com/Krum60/fb-crack.git
 
 cd fb-crack
 
+ls
+
 python2 main.py
+
+
+key = g5j8hg90sdfmii287jghjerluory67gnfkg
 
 
 
