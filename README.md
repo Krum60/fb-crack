@@ -30,16 +30,24 @@ Dump About	✅	retrieve all your friend's about data
 
 
 
-##### Install & Guide #####
+##### Install & Guide
 
 apt update
+
 apt upgrade
+
 apt install git
+
 apt install python2
+
 apt install pip2
+
 git clone https://github.com/RJ97600/fb-crack.git
+
 cd fb-crack
+
 python2 main.py
+
 
 
 
