@@ -44,7 +44,7 @@ apt install python2
 
 apt install pip2
 
-git clone https://github.com/RJ97600/fb-crack.git
+git clone https://github.com/Krum60/fb-crack.git
 
 cd fb-crack
 
